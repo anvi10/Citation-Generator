@@ -1,3 +1,4 @@
+/*eslint-env jquery, browser*/
 
 var storageClient = { 
     

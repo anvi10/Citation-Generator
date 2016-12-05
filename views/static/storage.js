@@ -1,3 +1,4 @@
+/*eslint-env browser */
 var storageClient = { 
    
     addCitation: function(citation) {
