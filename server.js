@@ -11,7 +11,7 @@ var expresshb = require('express-handlebars');
 var passport = require('passport');
 var passlocal = require('passport-local').Strategy;
 var expressSesh = require('express-session');
-mongoose.connect("mongodb://localhost/doodle");
+mongoose.connect("mongodb://6c383668-f4f7-45bd-835d-89ea669ee028:ef01d922-f7fd-46f0-8a66-f54ede99adc7@23.246.199.101:10024/db");
 
 app.use(express.static(__dirname+'/views/static'));
 
